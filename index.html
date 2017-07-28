@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Random Quote Machine</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--<meta charset="utf-8"> -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container-fluid">
+  <div class="row">
+    <!-- dummy left column-->
+    <div class="col-md-3"></div>
+    <!-- active column for everything-->
+    <div class="col-md-6 text-center quotebox">
+      <!-- row strictly for quotes area-->
+      <div class="row">
+        <div class="col-md-12 text-left quote" id="quotearea">
+        </div>
+      </div>
+      <!-- row strictly for author-->
+      <div class="row">
+        <div class="col-md-12 text-right author" id="authorarea">
+        </div>
+      </div>
+      <hr/>
+    <!-- row only for social media + quote button-->
+      <div class="row bottom-buffer">
+        <!-- column for social media-->
+        <div class="col-md-6 text-left">
+          <a class="fa fa-twitter" id="tweet"></a>
+        </div>
+        <!-- column for quote button-->
+        <div class="col-md-6 text-right">
+              <a class="btn btn-basic" id="quotefetcher" href="#" role="button">New quote</a>
+              <!--<button type="submit" class="" id="quotefetcher"  href="#"></button>-->
+        </div>
+      </div>
+    <!-- dummy right column-->
+    </div><div class="col-md-3">
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

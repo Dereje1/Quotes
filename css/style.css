@@ -1,0 +1,48 @@
+body{
+  margin-top:6.25em;
+  background-color:black;
+}
+.quotebox{
+  background-color:white;
+  border-radius:5px;
+  margin-bottom:.5em;
+  margin-right:1em;
+  margin-left:1em;
+}
+.quote{
+  font-family:Helvetica;
+}
+
+.author{
+  font-family:arial;
+  font-size:1.25em;
+}
+.bottom-buffer{
+  margin-top:1.25em;
+  margin-bottom:1.25em;
+}
+.btn-basic{
+  background-color:#0b3fdd;
+  color:white;
+}
+.btn-basic:focus{
+  color:white;
+}
+.btn-basic:hover{
+  color:white;
+}
+#tweet{
+  color: white;
+  background-color:#0b3fdd;
+  font-size: 2.5em;
+  padding:.188em;
+  border-radius:.188em;
+}
+.fa:focus{
+  color:white;
+  text-decoration: none;
+}
+.fa:hover{
+  color:white;
+  text-decoration: none;
+}
